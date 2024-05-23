@@ -1,0 +1,43 @@
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border-radius: 2%;
+    border-style: solid;
+    border-color: lightskyblue;
+}
+
+h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul li {
+    color: blueviolet;
+}
+
+ol li {
+    color: royalblue;
+}
+
+li {
+    font-size: 20px;
+}
+
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightblue;
+}
+
+.links {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    background-color: bisque;
+    color: black;
+}
+
