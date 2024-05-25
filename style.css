@@ -1,15 +1,59 @@
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    background-color: lightblue;
+    text-align: center;
+}
 
-div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.links {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    background-color: bisque;
+    color: black;
+}
+
+.description {
+    background-color: lightblue;
+    border-radius: 2%;
+    border-style: solid;
+    border-color: lightskyblue;
+    padding: 15px;
+    width: 100%;
+}
+.description-img, .description-text {
+    display: inline-block;
+    width: 45%;
+}
+.description-text {
+    padding: 0;
+    vertical-align: top;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.instructions {
+    margin: 10px auto;
+    background-color: lightyellow;
+    padding: 15px;
+    border-style: solid;
+    border-color: lightsalmon;
+    border-radius: 2%;
+    width: 100%;
+}
+
+.inst-ingredients,
+.inst-steps {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
 }
 
 img {
     border-radius: 2%;
-    border-style: solid;
-    border-color: lightskyblue;
 }
 
 h4 {
@@ -26,18 +70,5 @@ ol li {
 
 li {
     font-size: 20px;
+    padding: 5px;
 }
-
-.title {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: lightblue;
-}
-
-.links {
-    font-size: 25px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-decoration: none;
-    background-color: bisque;
-    color: black;
-}
-
